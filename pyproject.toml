@@ -8,6 +8,7 @@ dependencies = [
     "accelerate>=1.11.0",
     "datasets>=4.3.0",
     "ipykernel>=7.1.0",
+    "kernels>=0.11.0",
     "torch>=2.9.0",
     "torchaudio>=2.9.0",
     "torchvision>=0.24.0",

@@ -45,7 +45,11 @@ EXPERT_MS = [0.0]*N
 
 
 def reset_timers():
-    global ATTN_S, ATTN_E, MLP_S, MLP_E, ATTN_MS, MLP_MS, SOFTMAX_S, SOFTMAX_E, SOFTMAX_MS, GATING_S, GATING_E, GATING_MS, UP_S, UP_E, UP_MS, DOWN_S, DOWN_E, DOWN_MS, PROJGATING_S, PROJGATING_E, PROJGATING_MS, EXPERT_S, EXPERT_E, EXPERT_MS
+    global ATTN_S, ATTN_E, MLP_S, MLP_E, SOFTMAX_S, SOFTMAX_E, GATING_S, GATING_E
+    global UP_S, UP_E, DOWN_S, DOWN_E, PROJGATING_S, PROJGATING_E, EXPERT_S, EXPERT_E
+    global ATTN_MS, MLP_MS, SOFTMAX_MS, GATING_MS, UP_MS, DOWN_MS, PROJGATING_MS, EXPERT_MS
+
+    ATTN_S = [torch.cuda.Event(enable_timing=True) for _ in range(N)]
     ATTN_E = [torch.cuda.Event(enable_timing=True) for _ in range(N)]
     MLP_S = [torch.cuda.Event(enable_timing=True) for _ in range(N)]
     MLP_E = [torch.cuda.Event(enable_timing=True) for _ in range(N)]
@@ -73,12 +77,9 @@ def reset_timers():
 
 
 def show_res():
-    if MLP_MS[1] != 0.0:
-        reset_timers()
-
     torch.cuda.synchronize()
     # just for decoder without prefill
-    for i in range(1, N):
+    for i in range(N):
         ATTN_MS[i] = ATTN_S[i].elapsed_time(ATTN_E[i])  # ms
         MLP_MS[i] = MLP_S[i].elapsed_time(MLP_E[i])
         EXPERT_MS[i] = EXPERT_S[i].elapsed_time(EXPERT_E[i])
@@ -91,7 +92,7 @@ def show_res():
             f"L{i:02d}\tattn={ATTN_MS[i]:.3f}\tmlp={MLP_MS[i]:.3f}\texpert={EXPERT_MS[i]:.3f}\tsoftmax={SOFTMAX_MS[i]:.3f}\tgating={GATING_MS[i]:.3f}")
     print("summary:")
     print(f"attn_total={sum(ATTN_MS):.3f} ms\tmlp_total={sum(MLP_MS):.3f} ms\texpert_total={sum(EXPERT_MS):.3f} ms\tsoftmax_total={sum(SOFTMAX_MS):.3f} ms\tgating_total={sum(GATING_MS):.3f} ms")
-    print(f"mlp_ratio={sum(MLP_MS)/(sum(ATTN_MS)+sum(MLP_MS))*100:.1f}%")
+    print(f"mlp_ratio={sum(MLP_MS)/(sum(ATTN_MS)+sum(MLP_MS))*100:.3f}%")
 
 
 class Qwen3MoeDecoderLayerTimed(Qwen3MoeDecoderLayer):
@@ -136,8 +137,8 @@ class Qwen3MoeDecoderLayerTimed(Qwen3MoeDecoderLayer):
                 cache_position=cache_position,
                 **kwargs,
             )
-        ATTN_E[lid].record()
         hidden_states = residual + hidden_states
+        ATTN_E[lid].record()
 
         residual = hidden_states
         hidden_states = self.post_attention_layernorm(hidden_states)
@@ -147,8 +148,8 @@ class Qwen3MoeDecoderLayerTimed(Qwen3MoeDecoderLayer):
             hidden_states = self.mlp(hidden_states)
             if isinstance(hidden_states, tuple):
                 hidden_states, _ = hidden_states
-        MLP_E[lid].record()
         hidden_states = residual + hidden_states
+        MLP_E[lid].record()
 
         return hidden_states
 
