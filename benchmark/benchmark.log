@@ -1,0 +1,870 @@
+[RANK-PROCESS-0][[36m2025-11-07 01:39:01,920[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Setting torch.distributed cuda device to 0[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:02,065[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Initializing torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:02,770[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:02,771[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:02,773[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,799[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,799[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,799[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,800[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,800[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,800[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,800[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,800[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,800[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2685843[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,800[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,800[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking Allocated/Reserved memory of 1 Pytorch CUDA devices[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,800[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,801[0m][[34mtorchrun[0m][[31mERROR[0m] - 	+ Benchmark failed with an exception[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,820[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Destroying torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:39:06,820[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting rank process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:39:29,288[0m][[34mtorchrun[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:39:29,289[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending traceback string directly (2276 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:39:29,290[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:19,563[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Setting torch.distributed cuda device to 0[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:19,713[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Initializing torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:20,072[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:20,072[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:20,073[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,640[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,640[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,640[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,640[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,641[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,641[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,641[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,641[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,641[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2686662[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,641[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,641[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking Allocated/Reserved memory of 1 Pytorch CUDA devices[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,641[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,641[0m][[34mtorchrun[0m][[31mERROR[0m] - 	+ Benchmark failed with an exception[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,656[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Destroying torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:44:23,657[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting rank process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:44:47,811[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:44:47,811[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs directly (1905 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:44:47,811[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:16,060[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Setting torch.distributed cuda device to 0[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:16,214[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Initializing torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:16,545[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:16,545[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:16,546[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,401[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,401[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,401[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,402[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,402[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,402[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,403[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,403[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,403[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2687133[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,403[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,403[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking Allocated/Reserved memory of 1 Pytorch CUDA devices[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,403[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,403[0m][[34mtorchrun[0m][[31mERROR[0m] - 	+ Benchmark failed with an exception[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,423[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Destroying torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:46:21,424[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting rank process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:46:44,567[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:46:44,567[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs directly (1905 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:46:44,568[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:38,920[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Setting torch.distributed cuda device to 0[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:39,080[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Initializing torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:39,431[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:39,431[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:39,432[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:44,422[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:44,422[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:44,422[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:44,423[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:44,423[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:44,423[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:44,423[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:44,423[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:44,423[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2687457[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:44,423[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:44,423[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking Allocated/Reserved memory of 1 Pytorch CUDA devices[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:44,423[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:44,425[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:49,271[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:49,272[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading model with pretrained weights[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:47:49,272[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading Transformers model[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:48:05,192[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Moving Transformers model to device: cuda[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:48:16,178[0m][[34mtorchrun[0m][[31mERROR[0m] - 	+ Benchmark failed with an exception[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:48:16,325[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Destroying torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:48:16,328[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting rank process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:48:40,419[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:48:40,420[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs directly (3595 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:48:40,420[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:40,155[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:40,155[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:40,157[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,157[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,157[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,157[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,158[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,158[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,158[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,158[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,158[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,158[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2688320[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,158[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,173[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking Allocated/Reserved memory of 1 Pytorch CUDA devices[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,173[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,175[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:45,175[0m][[34mmemory[0m][[33mWARNING[0m] - 		+ Could not reset max memory stats for device 0: Invalid device argument [0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:50,324[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:50,324[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading model with pretrained weights[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:52:50,325[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading Transformers model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:53:06,020[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Moving Transformers model to device: cuda[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:53:17,294[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:53:17,297[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (3533 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:53:17,443[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:56:00,124[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Setting torch.distributed cuda device to 0[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:56:00,291[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Initializing torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:56:00,658[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:56:00,659[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:56:00,660[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:56:27,178[0m][[34mtorchrun[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:56:27,179[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending traceback string directly (2276 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:56:27,180[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:23,649[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Setting torch.distributed cuda device to 0[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:23,827[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Initializing torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:24,215[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:24,215[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:24,217[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:28,634[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:28,634[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:28,634[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:28,634[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:28,634[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:28,635[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:28,635[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:28,635[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:28,635[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2689382[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:28,635[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:28,635[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking Allocated/Reserved memory of 1 Pytorch CUDA devices[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:28,635[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:28,636[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:33,390[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:33,391[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading model with pretrained weights[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:33,391[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading Transformers model[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:58:41,422[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Moving Transformers model to device: cuda[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:58:50,801[0m][[34mtorchrun[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:58:50,802[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending traceback string directly (2276 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 01:58:50,803[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:52,483[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Setting torch.distributed cuda device to 0[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:52,633[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Initializing torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:52,987[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:52,987[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:52,991[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:56,442[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:56,442[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:56,442[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:56,443[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:56,443[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:56,443[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:56,443[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:56,443[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:56,443[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2689640[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:56,443[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:56,444[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking Allocated/Reserved memory of 1 Pytorch CUDA devices[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:56,444[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[RANK-PROCESS-0][[36m2025-11-07 01:59:56,446[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:00:01,750[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:00:01,752[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading model with pretrained weights[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:00:01,752[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading Transformers model[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:00:10,214[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Moving Transformers model to device: cuda[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:00:19,817[0m][[34mtorchrun[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:00:19,818[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending traceback string directly (2276 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:00:19,818[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:11,522[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Setting torch.distributed cuda device to 0[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:11,714[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Initializing torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:12,173[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:12,173[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:12,175[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:17,370[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:17,370[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:17,370[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:17,371[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:17,371[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:17,371[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:17,371[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:17,371[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:17,371[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2690252[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:17,371[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:17,371[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking Allocated/Reserved memory of 1 Pytorch CUDA devices[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:17,371[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:17,373[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:22,349[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:22,350[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading model with pretrained weights[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:22,350[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading Transformers model[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:30,654[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Moving Transformers model to device: cuda[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:40,208[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Enabling eval mode[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:40,253[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Cleaning up backend temporary directory[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:40,267[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend pytorch[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:03:40,292[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:04:03,579[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Per-Token Text Generation latency tracking[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:05:16,178[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation memory tracking[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:05:34,600[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Benchmark completed successfully[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:05:34,606[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Destroying torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:05:34,607[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting rank process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:05:39,352[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:05:39,354[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs directly (117657 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:05:39,354[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:06:59,891[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Setting torch.distributed cuda device to 0[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:00,046[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Initializing torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:00,395[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:00,395[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:00,397[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:32,618[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:32,618[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:32,618[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:32,619[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:32,619[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:32,619[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:32,619[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:32,619[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:32,620[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2691999[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:32,620[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:32,620[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking Allocated/Reserved memory of 1 Pytorch CUDA devices[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:32,620[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:32,622[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:37,708[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:37,709[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading model with pretrained weights[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:37,709[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading Transformers model[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:07:57,773[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Moving Transformers model to device: cuda[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:08:06,589[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Enabling eval mode[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:08:06,640[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Cleaning up backend temporary directory[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:08:06,662[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend pytorch[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:08:06,688[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:08:32,858[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Per-Token Text Generation latency tracking[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:09:51,323[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation memory tracking[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:10:10,203[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Benchmark completed successfully[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:10:10,209[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Destroying torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:10:10,210[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting rank process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:10:28,083[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:10:28,085[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs directly (117562 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:10:28,086[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:17:30,141[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Setting torch.distributed cuda device to 0[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:17:30,293[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Initializing torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:17:30,379[0m][[34mhydra.utils[0m][[31mERROR[0m] - Error getting class at optimum_benchmark.backends.vllm.backend.VLLMBackend: Error loading 'optimum_benchmark.backends.vllm.backend.VLLMBackend':
+ImportError('/home/lkx/data/qwen_moe/.venv/lib/python3.13/site-packages/vllm/_C.abi3.so: undefined symbol: _ZNK3c106SymInt6sym_neERKS0_')[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:17:30,379[0m][[34mtorchrun[0m][[31mERROR[0m] - 	+ Benchmark failed with an exception[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:17:30,381[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Destroying torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:17:30,381[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting rank process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:17:58,150[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:17:58,150[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs directly (4336 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:17:58,150[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:18:14,293[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Setting torch.distributed cuda device to 0[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:18:14,441[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Initializing torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:18:14,522[0m][[34mhydra.utils[0m][[31mERROR[0m] - Error getting class at optimum_benchmark.backends.vllm.backend.VLLMBackend: Error loading 'optimum_benchmark.backends.vllm.backend.VLLMBackend':
+ImportError('/home/lkx/data/qwen_moe/.venv/lib/python3.13/site-packages/vllm/_C.abi3.so: undefined symbol: _ZNK3c106SymInt6sym_neERKS0_')[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:18:14,522[0m][[34mtorchrun[0m][[31mERROR[0m] - 	+ Benchmark failed with an exception[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:18:14,524[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Destroying torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:18:14,525[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting rank process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:18:42,108[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:18:42,109[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs directly (4336 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:18:42,109[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,018[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Setting torch.distributed cuda device to 0[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,166[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Initializing torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,721[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,721[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,724[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,725[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,726[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,726[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,726[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,726[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,727[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,727[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2694629[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,727[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,727[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Energy tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,727[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking RAM and CPU energy consumption[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,727[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking GPU energy consumption on devices [0][0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,727[0m][[34mtorchrun[0m][[31mERROR[0m] - 	+ Benchmark failed with an exception[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,728[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Destroying torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:21:59,729[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting rank process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:22:26,951[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:22:26,951[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs directly (1219 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:22:26,951[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:22:59,640[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Setting torch.distributed cuda device to 0[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:22:59,800[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Initializing torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,378[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,378[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,380[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,381[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,381[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,381[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,381[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,382[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,382[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,382[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2695149[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,382[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,382[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Energy tracker[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,382[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking RAM and CPU energy consumption[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:00,382[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking GPU energy consumption on devices [0][0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:05,316[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:05,317[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:10,785[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:10,785[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:11,180[0m][[34mtorchrun[0m][[31mERROR[0m] - 	+ Benchmark failed with an exception[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:11,182[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Destroying torch.distributed process group[0m
+[RANK-PROCESS-0][[36m2025-11-07 02:23:11,182[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting rank process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:23:28,021[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:23:28,021[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Sending outputs directly (1996 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:23:28,021[0m][[34mtorchrun[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,082[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,082[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,083[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,084[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,085[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,085[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,085[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,085[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,085[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,085[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2695695[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,085[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,085[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Energy tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,085[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking RAM and CPU energy consumption[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:26,086[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking GPU energy consumption on devices [0][0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:30,853[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:30,855[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:36,724[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:36,724[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:37,006[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:37,008[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (1954 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:25:37,008[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:01,348[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:01,348[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:01,349[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,676[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,676[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,676[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,677[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,677[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,677[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,677[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,677[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,677[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2695851[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,677[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,693[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking Allocated/Reserved memory of 1 Pytorch CUDA devices[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,693[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Energy tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,693[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking RAM and CPU energy consumption[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:05,693[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking GPU energy consumption on devices [0][0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:10,438[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:10,440[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:16,367[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:16,367[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading model with pretrained weights[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:16,367[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading Transformers model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:25,038[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Moving Transformers model to device: cuda[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:34,051[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Enabling eval mode[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:34,094[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Cleaning up backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:34,612[0m][[34menergy[0m][[32mINFO[0m] - 		+ Saving codecarbon emission data to load_model_codecarbon.json[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:34,613[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend pytorch[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:34,614[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:57,662[0m][[34menergy[0m][[32mINFO[0m] - 		+ Saving codecarbon emission data to first_generate_codecarbon.json[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:26:59,076[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Per-Token Text Generation latency tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:28:12,258[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation memory tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:28:30,617[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation energy tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:28:41,666[0m][[34menergy[0m][[32mINFO[0m] - 		+ Saving codecarbon emission data to prefill_codecarbon.json[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:29:55,196[0m][[34menergy[0m][[32mINFO[0m] - 		+ Saving codecarbon emission data to generate_codecarbon.json[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:29:55,254[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:29:55,259[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary directly (118285 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:29:55,260[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:30:46,122[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:30:46,123[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:30:46,124[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,699[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,700[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,700[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,700[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,700[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,700[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,700[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,700[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,700[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2696827[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,701[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,716[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking Allocated/Reserved memory of 1 Pytorch CUDA devices[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,716[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Energy tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,716[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking RAM and CPU energy consumption[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:14,716[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking GPU energy consumption on devices [0][0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:19,441[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:19,443[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:25,170[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:25,170[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading model with pretrained weights[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:25,171[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading Transformers model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:39,240[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Moving Transformers model to device: cuda[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:50,067[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Enabling eval mode[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:50,109[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Cleaning up backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:50,625[0m][[34menergy[0m][[32mINFO[0m] - 		+ Saving codecarbon emission data to load_model_codecarbon.json[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:50,627[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend pytorch[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:31:50,627[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:32:08,011[0m][[34menergy[0m][[32mINFO[0m] - 		+ Saving codecarbon emission data to first_generate_codecarbon.json[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:32:08,962[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Per-Token Text Generation latency tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:32:55,836[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation memory tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:33:11,175[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation energy tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:33:21,853[0m][[34menergy[0m][[32mINFO[0m] - 		+ Saving codecarbon emission data to prefill_codecarbon.json[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:34:09,939[0m][[34menergy[0m][[32mINFO[0m] - 		+ Saving codecarbon emission data to generate_codecarbon.json[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:34:09,999[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:34:10,003[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary directly (77242 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:34:10,004[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:32,340[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:32,340[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:32,342[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:32,343[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:32,343[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:32,343[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:32,343[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:32,343[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:32,343[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:32,344[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2697754[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:32,344[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Energy tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:32,344[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking RAM and CPU energy consumption[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:37,120[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:37,122[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:40,092[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:40,093[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:40,679[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:40,682[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (2049 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:35:40,682[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:51,909[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:51,909[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:51,910[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:51,912[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:51,912[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:51,912[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:51,912[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:51,912[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:51,912[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:51,912[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2698039[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:51,913[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Energy tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:51,913[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking RAM and CPU energy consumption[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:56,682[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:56,685[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:59,581[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:36:59,582[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:01,125[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:01,127[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (1954 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:01,127[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:58,505[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:58,505[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:58,506[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:58,507[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:58,508[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:58,508[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:58,508[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:58,508[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:58,508[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:58,508[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2698304[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:58,508[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Energy tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:37:58,508[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking RAM and CPU energy consumption[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:03,257[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:03,260[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:06,179[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:06,179[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:06,431[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:06,434[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (1954 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:06,434[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:42,169[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:42,169[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:42,171[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:42,172[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:42,172[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:42,172[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:42,173[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:42,173[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:42,173[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:42,173[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2698585[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:42,173[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Energy tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:42,173[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking RAM and CPU energy consumption[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:46,909[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:46,912[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:49,832[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:49,833[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:50,180[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:50,182[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (2148 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:38:50,182[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:29,288[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:29,288[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:29,290[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:29,291[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:29,291[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:29,291[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:29,291[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:29,291[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:29,292[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:29,292[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2698824[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:29,292[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Energy tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:29,292[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking RAM and CPU energy consumption[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:34,059[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:34,061[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:36,973[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:36,974[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:37,340[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:37,342[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (2051 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:39:37,342[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:40:18,720[0m][[34mhydra.utils[0m][[31mERROR[0m] - Error getting class at optimum_benchmark.backends.vllm.backend.VLLMBackend: Error loading 'optimum_benchmark.backends.vllm.backend.VLLMBackend':
+ImportError('/home/lkx/data/qwen_moe/.venv/lib/python3.13/site-packages/vllm/_C.abi3.so: undefined symbol: _ZNK3c106SymInt6sym_neERKS0_')[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:40:18,720[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:40:18,722[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (4251 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:40:18,722[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:43:18,084[0m][[34mhydra.utils[0m][[31mERROR[0m] - Error getting class at optimum_benchmark.backends.vllm.backend.VLLMBackend: Error loading 'optimum_benchmark.backends.vllm.backend.VLLMBackend':
+ImportError('/home/lkx/data/qwen_moe/.venv/lib/python3.13/site-packages/vllm/_C.abi3.so: undefined symbol: _ZNK3c106SymInt6sym_neERKS0_')[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:43:18,085[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:43:18,087[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (4251 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:43:18,087[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:55:05,286[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:55:05,286[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:55:05,286[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:55:05,287[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:55:05,287[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:55:05,287[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Memory tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:55:05,287[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking RAM memory of process 2704491[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:55:05,287[0m][[34mmemory[0m][[32mINFO[0m] - 		+ Tracking GPU memory of devices [0][0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:55:05,287[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Energy tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:55:05,287[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking RAM and CPU energy consumption[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:55:05,287[0m][[34menergy[0m][[32mINFO[0m] - 		+ Tracking GPU energy consumption on devices [0][0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:55:10,080[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:55:10,081[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:56:07,248[0m][[34menergy[0m][[32mINFO[0m] - 		+ Saving codecarbon emission data to load_model_codecarbon.json[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:56:07,250[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend vllm[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:56:07,251[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:56:18,508[0m][[34menergy[0m][[32mINFO[0m] - 		+ Saving codecarbon emission data to first_generate_codecarbon.json[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:56:18,627[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation latency tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:56:44,894[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation memory tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:56:57,559[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation energy tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:57:08,069[0m][[34menergy[0m][[32mINFO[0m] - 		+ Saving codecarbon emission data to prefill_codecarbon.json[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:57:25,438[0m][[34menergy[0m][[32mINFO[0m] - 		+ Saving codecarbon emission data to generate_codecarbon.json[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:57:25,664[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:57:25,666[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary directly (10965 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 02:57:25,667[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:01:47,625[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:01:47,625[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:01:47,625[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:01:47,626[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:01:47,626[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:01:47,626[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:01:47,627[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:02:15,551[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend vllm[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:02:15,552[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:02:19,799[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation latency tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:02:45,821[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:02:45,823[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary directly (9772 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:02:45,824[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:43,681[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:43,681[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:43,683[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:53,401[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:53,401[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:53,402[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:53,403[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:53,403[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:53,403[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:53,403[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:53,403[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:53,403[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:53,773[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:53,774[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading model with pretrained weights[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:53,774[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading Transformers model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:04:57,495[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Moving Transformers model to device: cuda[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:05:02,923[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Enabling eval mode[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:05:02,936[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Cleaning up backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:05:02,938[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend pytorch[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:05:02,938[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:05:10,281[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Per-Token Text Generation latency tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:05:43,227[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:05:43,230[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary directly (77303 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:05:43,230[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:11:32,228[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:11:32,228[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:11:32,228[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:11:32,229[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:11:32,229[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:11:32,229[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:11:32,229[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:12:07,431[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend vllm[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:12:07,432[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:12:08,451[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation latency tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:12:29,112[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:12:29,114[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary directly (13256 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:12:29,115[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:12,219[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:12,219[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:12,220[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:18,368[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:18,369[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:18,369[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:18,370[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:18,370[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:18,370[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:18,370[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:18,370[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:18,371[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:18,755[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:18,755[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading model with pretrained weights[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:18,755[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading Transformers model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:26,812[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Moving Transformers model to device: cuda[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:36,726[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Enabling eval mode[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:36,767[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Cleaning up backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:36,770[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend pytorch[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:36,770[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:20:47,173[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Per-Token Text Generation latency tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:21:32,337[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:21:32,342[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary directly (75569 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:21:32,343[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:23:22,380[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:23:22,380[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:23:22,380[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:23:22,381[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:23:22,381[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:23:22,381[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:23:22,381[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:24:00,136[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend vllm[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:24:00,137[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:24:03,439[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation latency tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:24:28,253[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:24:28,254[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary directly (10254 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:24:28,255[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:10,677[0m][[34mpytorch[0m][[32mINFO[0m] - Allocating pytorch backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:10,677[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:10,678[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Benchmarking a Transformers model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:13,878[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:13,878[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:13,878[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:13,879[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:13,879[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:13,879[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Per-Token Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:13,879[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using Pytorch CUDA events[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:13,879[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:13,880[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:14,230[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:14,230[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading model with pretrained weights[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:14,230[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Loading Transformers model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:21,896[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Moving Transformers model to device: cuda[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:32,887[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Enabling eval mode[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:32,930[0m][[34mpytorch[0m][[32mINFO[0m] - 	+ Cleaning up backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:32,931[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend pytorch[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:32,932[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:25:43,649[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Per-Token Text Generation latency tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:26:30,349[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:26:30,354[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary directly (75724 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 03:26:30,355[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:01:56,989[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:01:56,989[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:01:56,990[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:01:56,991[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:01:56,991[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:01:56,992[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:01:56,992[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:01:56,992[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:01:56,992[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:01:56,994[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:01:56,994[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:01:56,994[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:02,647[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:02,649[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (2453 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:02,649[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,321[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,321[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,322[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,324[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,324[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,324[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,324[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,324[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,324[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,326[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,326[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,326[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,785[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,787[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (2093 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:02:47,788[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,269[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,269[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,271[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,272[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,272[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,272[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,273[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,273[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,273[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,274[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,274[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,274[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,274[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,276[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (1996 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:03:35,276[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,742[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,742[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,743[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,745[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,745[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,745[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,745[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,745[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,745[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,747[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,747[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,747[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,747[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,748[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (1981 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:04:44,748[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,358[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,358[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,360[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,361[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,361[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,361[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,361[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,361[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,361[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,363[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,363[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,363[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,363[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,364[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (1992 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:05:24,365[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,773[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,774[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,775[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,776[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,776[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,776[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,777[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,777[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,777[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,778[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,778[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,779[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,779[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,780[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (1976 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:12:20,780[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,200[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,200[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,202[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,203[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,203[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,203[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,203[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,203[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,204[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,205[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,205[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,205[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,205[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,206[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (1976 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:16:06,207[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:32,805[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:32,805[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:32,807[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:32,808[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:32,808[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:32,808[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:32,809[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:32,809[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:32,809[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:32,810[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:32,810[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:32,810[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:34,348[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:34,349[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (2091 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:19:34,350[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:17,229[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:17,229[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:17,230[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:17,231[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:17,231[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:17,232[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:17,232[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:17,232[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:17,232[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:17,234[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:17,234[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:17,234[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:18,108[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:18,116[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (4831 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:20:18,116[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:06,954[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:06,954[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:06,955[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:06,956[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:06,956[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:06,957[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:06,957[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:06,957[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:06,957[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:06,959[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:06,959[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:06,959[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:07,554[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:07,557[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (2114 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:21:07,557[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:16,010[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:16,010[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:16,011[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:16,012[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:16,012[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:16,012[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:16,013[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:16,013[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:16,013[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:16,015[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:16,015[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:16,015[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:24,807[0m][[34mprocess[0m][[31mERROR[0m] - 	+ Sending traceback string to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:24,813[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending traceback string directly (1996 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:25:24,813[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:46,356[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:46,357[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:46,358[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:46,359[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:46,359[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:46,359[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:46,360[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:46,360[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:46,360[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:46,361[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:46,362[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:46,362[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:47,755[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend llama_cpp[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:47,755[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:38:56,761[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation latency tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:39:32,920[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:39:32,921[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary directly (8170 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:39:32,922[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:37,167[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:37,167[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:37,169[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:37,170[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:37,170[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:37,170[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:37,171[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:37,171[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:37,171[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:37,172[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:37,172[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:37,173[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:42,249[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend llama_cpp[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:42,249[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:40:43,530[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation latency tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:41:03,860[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:41:03,861[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary directly (29145 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:41:03,862[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:38,285[0m][[34mllama_cpp[0m][[32mINFO[0m] - Allocating llama_cpp backend[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:38,285[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Seeding backend with 42[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:38,287[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Benchmarking a LlamaCpp model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:38,289[0m][[34minference[0m][[32mINFO[0m] - Allocating inference scenario[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:38,289[0m][[34minference[0m][[32mINFO[0m] - 	+ Updating Text Generation kwargs with default values[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:38,289[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Text Generation targets list[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:38,289[0m][[34minference[0m][[32mINFO[0m] - 	+ Initializing Latency tracker[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:38,290[0m][[34mlatency[0m][[32mINFO[0m] - 		+ Tracking latency using CPU performance counter[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:38,290[0m][[34minference[0m][[32mINFO[0m] - 	+ Generating inputs for task text-generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:38,292[0m][[34minference[0m][[32mINFO[0m] - 	+ Running model loading tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:38,292[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Creating backend temporary directory[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:38,292[0m][[34mllama_cpp[0m][[32mINFO[0m] - 	+ Loading pretrained model[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:39,836[0m][[34minference[0m][[32mINFO[0m] - 	+ Preparing inputs for backend llama_cpp[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:39,837[0m][[34minference[0m][[32mINFO[0m] - 	+ Warming up backend for Text Generation[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:44:48,874[0m][[34minference[0m][[32mINFO[0m] - 	+ Running Text Generation latency tracking[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:45:25,567[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary to main process[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:45:25,568[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Sending report dictionary directly (8228 bytes)[0m
+[ISOLATED-PROCESS][[36m2025-11-07 16:45:25,568[0m][[34mprocess[0m][[32mINFO[0m] - 	+ Exiting isolated process[0m
