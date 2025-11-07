@@ -61,7 +61,9 @@ class Qwen3MoeDecoderLayerTimed(Qwen3MoeDecoderLayer):
         hidden_states = residual + hidden_states
 
         residual = hidden_states
+        common._TREG.start(f"norm_{phase}", lid)
         hidden_states = self.post_attention_layernorm(hidden_states)
+        common._TREG.stop(f"norm_{phase}", lid)
 
         common._TREG.start(f"mlp_{phase}", lid)
         with record_function(f"Layer[{lid}].mlp"):
@@ -89,6 +91,7 @@ class Qwen3MoeSparseMoeBlockV2(Qwen3MoeSparseMoeBlock):
         # Gating
         # router_logits: (batch * sequence_length, n_experts)
         common._TREG.start(f"gating_{phase}", self._lid)
+        common._TREG.start(f"router_{phase}", self._lid)
         with record_function(f"Layer[{self._lid}].gating"):
             router_logits = self.gate(hidden_states)
         common._TREG.stop(f"gating_{phase}", self._lid)
@@ -107,18 +110,22 @@ class Qwen3MoeSparseMoeBlockV2(Qwen3MoeSparseMoeBlock):
         final_hidden_states = torch.zeros(
             (batch_size * sequence_length, hidden_dim), dtype=hidden_states.dtype, device=hidden_states.device
         )
+        common._TREG.stop(f"router_{phase}", self._lid)
 
         common._TREG.start(f"expert_{phase}", self._lid)
         with record_function(f"Layer[{self._lid}].experts.{phase}"):
             # One hot encode the selected experts to create an expert mask
             # this will be used to easily index which expert is going to be sollicitated
             # one-hot expert mask: [num_experts, top_k, B*T]
+            common._TREG.start(f"dispatch_{phase}", self._lid)
             expert_mask = F.one_hot(
                 selected_experts, num_classes=self.num_experts).permute(2, 1, 0)
 
             # Loop over all available experts in the model and perform the computation on each expert
             expert_hit = torch.greater(
                 expert_mask.sum(dim=(-1, -2)), 0).nonzero()
+            common._TREG.stop(f"dispatch_{phase}", self._lid)
+            common._TREG.start(f"compute_{phase}", self._lid)
             for expert_idx in expert_hit:
                 expert_layer = self.experts[expert_idx]
                 idx, top_x = torch.where(expert_mask[expert_idx].squeeze(0))
@@ -135,6 +142,7 @@ class Qwen3MoeSparseMoeBlockV2(Qwen3MoeSparseMoeBlock):
                 # the `top_x` tensor here.
                 final_hidden_states.index_add_(
                     0, top_x, current_hidden_states.to(hidden_states.dtype))
+            common._TREG.stop(f"compute_{phase}", self._lid)
         common._TREG.stop(f"expert_{phase}", self._lid)
 
         final_hidden_states = final_hidden_states.reshape(

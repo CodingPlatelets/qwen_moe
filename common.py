@@ -84,27 +84,32 @@ def print_timers_summary():
         return key
 
     keys = [
-        "attn_prefill", "mlp_prefill", "gating_prefill", "softmax_prefill", "expert_prefill",
-        "attn_decode", "mlp_decode", "gating_decode", "softmax_decode", "expert_decode"
+        "attn_prefill", "mlp_prefill", "gating_prefill", "softmax_prefill", "expert_prefill", "norm_prefill", "router_prefill", "dispatch_prefill", "compute_prefill", "aggregate_prefill",
+        "attn_decode", "mlp_decode", "gating_decode", "softmax_decode", "expert_decode", "norm_decode", "router_decode", "dispatch_decode", "compute_decode", "aggregate_decode",
     ]
     for k in keys:
         _TREG.ensure_key(k)
 
     print("=== Per-layer (ms) ===")
-    print("layer\tattn(PF)\tmlp(PF)\tgating(PF)\tsoftmax(PF)\texpert(PF)\t||\tattn(DEC)\tmlp(DEC)\tgating(DEC)\tsoftmax(DEC)\texpert(DEC)")
-    for i in range(N):
-        ap = _TREG.layer_ms(safe("attn_prefill"), i)
-        mp = _TREG.layer_ms(safe("mlp_prefill"), i)
-        gp = _TREG.layer_ms(safe("gating_prefill"), i)
-        sp = _TREG.layer_ms(safe("softmax_prefill"), i)
-        ep = _TREG.layer_ms(safe("expert_prefill"), i)
 
-        ad = _TREG.layer_ms(safe("attn_decode"), i)
-        md = _TREG.layer_ms(safe("mlp_decode"), i)
-        gd = _TREG.layer_ms(safe("gating_decode"), i)
-        sd = _TREG.layer_ms(safe("softmax_decode"), i)
-        ed = _TREG.layer_ms(safe("expert_decode"), i)
-        print(f"L{i:02d}\t{ap:.3f}\t\t{mp:.3f}\t\t{gp:.3f}\t\t{sp:.3f}\t\t{ep:.3f}\t\t||\t{ad:.3f}\t\t{md:.3f}\t\t{gd:.3f}\t\t{sd:.3f}\t\t{ed:.3f}")
+    prefill_keys = [safe(k) for k in keys if k.endswith("_prefill")]
+    decode_keys = [safe(k) for k in keys if k.endswith("_decode")]
+
+    def format_col_name(key: str) -> str:
+        name, suffix = key.split("_", 1)
+        label = "PF" if suffix == "prefill" else "DEC"
+        return f"{name}({label})"
+
+    header_prefill = "\t\t".join(format_col_name(k) for k in prefill_keys)
+    header_decode = "\t\t".join(format_col_name(k) for k in decode_keys)
+    print(f"layer\t{header_prefill}\t||\t{header_decode}")
+
+    for i in range(N):
+        prefill_vals = [_TREG.layer_ms(k, i) for k in prefill_keys]
+        decode_vals = [_TREG.layer_ms(k, i) for k in decode_keys]
+        prefill_str = "\t\t".join(f"{val:.3f}" for val in prefill_vals)
+        decode_str = "\t\t".join(f"{val:.3f}" for val in decode_vals)
+        print(f"L{i:02d}\t{prefill_str}\t||\t{decode_str}")
 
     print("\n=== Totals (ms) ===")
 
@@ -115,17 +120,22 @@ def print_timers_summary():
             "gating": _TREG.sum_ms(f"gating_{prefix}"),
             "softmax": _TREG.sum_ms(f"softmax_{prefix}"),
             "expert": _TREG.sum_ms(f"expert_{prefix}"),
+            "norm":   _TREG.sum_ms(f"norm_{prefix}"),
+            "router": _TREG.sum_ms(f"router_{prefix}"),
+            "dispatch": _TREG.sum_ms(f"dispatch_{prefix}"),
+            "compute": _TREG.sum_ms(f"compute_{prefix}"),
+            "aggregate": _TREG.sum_ms(f"aggregate_{prefix}"),
         }
 
     tp = total("prefill")
     td = total("decode")
-    for name in ["attn", "mlp", "gating", "softmax", "expert"]:
+    for name in ["attn", "mlp", "gating", "softmax", "expert", "norm", "router", "dispatch", "compute", "aggregate"]:
         print(
             f"{name:7s} prefill={tp[name]:.3f} ms\tdecode={td[name]:.3f} ms\tall={tp[name]+td[name]:.3f} ms")
 
     mlp_all = tp["mlp"] + td["mlp"]
     attn_all = tp["attn"] + td["attn"]
-    total_am = mlp_all + attn_all
+    total_am = mlp_all + attn_all + tp["norm"] + td["norm"]
     if total_am > 0:
         print(f"\nmlp_ratio_over_(attn+mlp) = {mlp_all / total_am * 100:.2f}%")
 

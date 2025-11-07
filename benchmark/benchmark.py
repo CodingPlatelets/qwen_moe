@@ -30,8 +30,8 @@ def build_config(backend_name: str):
         # filename="deepseek_V2_Lite.gguf",  # 确保文件真实存在
     )
     torch_config = PyTorchConfig(
-        model=model_id, device="cuda", device_ids="0",
-        no_weights=False, torch_dtype="bfloat16"
+        model=model_id, device="cuda", device_ids="0", eval_mode=True,
+        no_weights=False, torch_dtype="bfloat16", torch_compile=True, allow_tf32=True,
     )
 
     if backend_name == "vllm":
@@ -65,7 +65,7 @@ def build_config(backend_name: str):
 
 
 def main():
-    backend_name = "llama_cpp"  # "pytorch" / "llama_cpp"
+    backend_name = "pytorch"  # "pytorch" / "llama_cpp"
     cfg = build_config(backend_name)
     # 用 launch（会起子进程）；现在已有 main-guard，不会再报错
     report = Benchmark.launch(cfg)
